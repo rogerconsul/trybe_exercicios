@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 100px;
+}
+
+.artigos {
+    display: inline-block;
+}
+article {
+    width: 600px;
+}
+
+#first {
+    max-width: 400px;
+    display: inline-block;
+}
+
+.second {
+    max-width: 400px;
+    display: inline-block;
+}
+.referencias li{
+    margin-left: 5px;
+}
+
+aside {
+    background-color: green;
+    border: 3px solid black;
+    position: relative;
+    float:right;
+    align-items: center;
+}
