@@ -27,7 +27,7 @@ article {
     display: inline-block;
     justify-content: space-around;
     margin: 15px;
-
+    vertical-align: text-top;
 }
 
 .referencias li{
