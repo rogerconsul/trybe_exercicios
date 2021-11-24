@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    margin: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 22px;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 50px;
+    align-items: center;
+}
+
+
+article {
+    max-width: 350px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 15px;
+    vertical-align: text-top;
+}
+
+.referencias li{
+    margin-left: 5px;
+}
+
+aside {
+    background-color: green;
+    border: 3px solid black;
+    position: relative;
+    float:right;
+    align-items: center;
+}
