@@ -3,27 +3,33 @@ body {
     font-size: 15px;
 }
 
+h1 {
+    margin: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    line-height: 22px;
+}
+
 .nav-links li {
     display: inline;
-    margin: 100px;
+    margin: 50px;
+    align-items: center;
 }
 
-.artigos {
-    display: inline-block;
-}
+
 article {
-    width: 600px;
+    max-width: 350px;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 15px;
+
 }
 
-#first {
-    max-width: 400px;
-    display: inline-block;
-}
-
-.second {
-    max-width: 400px;
-    display: inline-block;
-}
 .referencias li{
     margin-left: 5px;
 }
