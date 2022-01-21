@@ -168,3 +168,9 @@ function oldBooks() {
 }
 // console.log(oldBooks())
 
+function autorWith3DotsOnName () {
+  const autor = books.find((autor) => autor.author.name[1] === '.' && autor.author.name[4] === '.' && autor.author.name[7] === '.');
+  return autor.name
+}
+
+console.log(autorWith3DotsOnName());
