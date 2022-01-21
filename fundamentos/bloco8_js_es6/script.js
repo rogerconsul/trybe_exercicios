@@ -150,7 +150,21 @@ function oldBooksOrdered() {
   return livros.sort((a, b) => a.releaseYear - b.releaseYear);
 }
 
-console.log(oldBooksOrdered())
+// console.log(oldBooksOrdered())
 
+function fantasyOrScienceFictionAuthors() {
+    const leticia = books.filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia');
 
+    const autores = leticia.map((autor) => autor.author.name);
+
+    return autores.sort();
+}
+
+// console.log(fantasyOrScienceFictionAuthors());
+
+function oldBooks() {
+  const livros = books.filter((livro) => (2021 - livro.releaseYear) > 60);
+  return livros.map((livro) => livro.name);
+}
+// console.log(oldBooks())
 
