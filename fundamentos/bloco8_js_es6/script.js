@@ -143,4 +143,34 @@ function fantasyOrScienceFiction() {
   return leticia;
 }
 
-console.log(fantasyOrScienceFiction());
+// console.log(fantasyOrScienceFiction());
+
+function oldBooksOrdered() {
+  const livros = books.filter((livro) => (2021 - livro.releaseYear) > 60);
+  return livros.sort((a, b) => a.releaseYear - b.releaseYear);
+}
+
+// console.log(oldBooksOrdered())
+
+function fantasyOrScienceFictionAuthors() {
+    const leticia = books.filter((livro) => livro.genre === 'Ficção Científica' || livro.genre === 'Fantasia');
+
+    const autores = leticia.map((autor) => autor.author.name);
+
+    return autores.sort();
+}
+
+// console.log(fantasyOrScienceFictionAuthors());
+
+function oldBooks() {
+  const livros = books.filter((livro) => (2021 - livro.releaseYear) > 60);
+  return livros.map((livro) => livro.name);
+}
+// console.log(oldBooks())
+
+function autorWith3DotsOnName () {
+  const autor = books.find((autor) => autor.author.name[1] === '.' && autor.author.name[4] === '.' && autor.author.name[7] === '.');
+  return autor.name
+}
+
+console.log(autorWith3DotsOnName());
