@@ -143,4 +143,14 @@ function fantasyOrScienceFiction() {
   return leticia;
 }
 
-console.log(fantasyOrScienceFiction());
+// console.log(fantasyOrScienceFiction());
+
+function oldBooksOrdered() {
+  const livros = books.filter((livro) => (2021 - livro.releaseYear) > 60);
+  return livros.sort((a, b) => a.releaseYear - b.releaseYear);
+}
+
+console.log(oldBooksOrdered())
+
+
+
