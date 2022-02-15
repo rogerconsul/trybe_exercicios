@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web 
+## :white_check_mark:Bloco 1: Fundamentos do Desenvolvimento Web 
 
 ##### :white_check_mark:Bloco 1: Introdução - Unix & Shell
 
@@ -67,22 +67,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-5: _[Projeto - Zoo functions]()_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-19-b-project-zoo-functions/pull/36)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Promises_
+- [X] 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-019-b-project-shopping-cart/pull/18)_
 
 ##### Bloco 10: Jest
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [X] 10-1: _Primeiros passos no Jest_
+- [X] 10-2: _Jest - Testes Assíncronos_
+- [X] 10-3: _Jest - Simulando comportamentos_
+- [X] 10-4: _[Projeto - Jest Assíncrono e Mocking](https://github.com/tryber/sd-019-b-project-js-unit-tests/pull/6)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
