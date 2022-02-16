@@ -1,0 +1,18 @@
+.header {
+  background-color: grey;
+  color: black;
+  font-weight: 700;
+}
+
+.content {
+  font-family: monospace;
+  background-color: darkgray;
+  color: black;
+  font-size: 1.2em;
+}
+
+.footer {
+  background-color: coral;
+  color: beige;
+  text-decoration: underline;
+}
